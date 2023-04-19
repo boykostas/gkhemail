@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    height: 100px;
+    height: 150px;
     text-align: center;
     padding-top: 0px;
 }
@@ -33,6 +33,7 @@ body {
     box-sizing: border-box;
     min-height: 100%;
     padding-bottom: 90px;
+    padding: 10px;
 }
 
 .main__index {
@@ -54,8 +55,8 @@ li>h1 {
 }
 
 .img {
-    width: 100px;
-    margin: 25px;
+    width: 120px;
+    margin: 40px;
 }
 
 .img_back {
@@ -73,4 +74,8 @@ li>h1 {
     text-align: center;
     height: 80px;
 	margin-top: -80px;
+}
+
+@media (max-width: 476px) {
+    
 }
