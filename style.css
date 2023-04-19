@@ -36,8 +36,8 @@ body {
 .main {
     box-sizing: border-box;
     min-height: 100%;
-    padding-bottom: 90px;
-    padding: 10px;
+    max-height: max-content;
+    padding: 10px 10px 90px 10px;
 }
 
 .main__index {
@@ -107,11 +107,8 @@ body {
     .adaptive-header .mobile-header {
       display: block;
     }
-    .footer {
-        margin-top: 0px;
-    }
     .img {
-        width: 90px;
+        width: 100px;
         margin: 30px;
     }
     .section {
@@ -125,11 +122,11 @@ body {
     .header {
         height: 50px;
     }
-    .footer {
+    /* .footer {
         margin-top: 0px;
-    }
+    } */
     .img {
-        width: 70px;
+        width: 75px;
         margin: 20px;
     }
     .section {
