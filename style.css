@@ -29,9 +29,11 @@ body {
     padding-top: 20px;
 }
 
-/* .header__links {
-    min-width: fit-content;
-} */
+.header__timer {
+    font: 25px sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
 
 .main {
     box-sizing: border-box;
