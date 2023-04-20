@@ -11,7 +11,7 @@ function startTime() {
     var s = tm.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('timer').innerHTML = day + "." + month + "." + year + " " + week + " " + h + ":" + m + ":" + s;
+    document.getElementById('timer').innerHTML = day + "." + month + "." + year + ", " + week + ", " + h + ":" + m + ":" + s;
     t = setTimeout('startTime()', 500);
 }
 function checkTime(i) {
