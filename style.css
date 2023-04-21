@@ -30,8 +30,7 @@ body {
 }
 
 .header__timer {
-    font: 20px sans-serif;
-    font-weight: bold;
+    font-size: 20px;
     padding-top: 10px;
 }
 
