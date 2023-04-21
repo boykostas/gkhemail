@@ -99,7 +99,7 @@ body {
   
   @media (max-width: 855px) {
     .header {
-        height: 50px;
+        height: 80px;
     }
     .adaptive-header .desktop-header {
       display: none;
@@ -121,7 +121,7 @@ body {
 
   @media (max-width: 560px) {
     .header {
-        height: 50px;
+        height: 80px;
     }
     /* .footer {
         margin-top: 0px;
