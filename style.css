@@ -121,7 +121,7 @@ body {
 
   @media (max-width: 560px) {
     .header {
-        height: 80px;
+        height: 100px;
     }
     /* .footer {
         margin-top: 0px;
