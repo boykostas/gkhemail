@@ -1,27 +1,83 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    height: 100%;
 }
 
 .container {
-    max-width: 1175px;
     margin: 0 auto;
+    background-image: url("img/bg2.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
-header {
+.header {
+    height: 100px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.header__logo {
+    padding-top: 10px;
+}
+
+.header__timer {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.main {
+    box-sizing: border-box;
+    min-height: 100%;
+    max-height: max-content;
+    padding: 10px 10px 90px 10px;
+}
+
+.main__index {
     text-align: center;
 }
 
-li {
+.main__instr {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main__instr_item {
     list-style-type: none;
 }
 
-li>h1 {
+.main__instr_item>h1 {
     text-align: center;
 }
 
-img {
-    width: 100px;
-    margin: 25px;
+.section {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    line-height: 140%
+}
+
+.section__list {
+    padding: 15px;
+}
+
+.img {
+    width: 120px;
+    margin: 40px;
+}
+
+.img_back {
+    width: 40px;
 }
 
 .scale {
@@ -30,3 +86,51 @@ img {
    .scale:hover {
     transform: scale(1.2); /* Увеличиваем масштаб */
    }
+
+.footer {
+    text-align: center;
+    height: 80px;
+	margin-top: -80px;
+}
+
+.adaptive-header .mobile-header {
+    display: none;
+  }
+  
+  @media (max-width: 855px) {
+    .header {
+        height: 80px;
+    }
+    .adaptive-header .desktop-header {
+      display: none;
+    }
+    
+    .adaptive-header .mobile-header {
+      display: block;
+    }
+    .img {
+        width: 100px;
+        margin: 30px;
+    }
+    .section {
+        margin: 0 auto;
+        text-align: justify;
+        font-size: 16px;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .header {
+        height: 100px;
+    }
+    .img {
+        width: 75px;
+        margin: 20px;
+    }
+    .section {
+        margin: 0 auto;
+        text-align: justify;
+        font-size: 16px;
+    }
+  }
+
